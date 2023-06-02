@@ -1,0 +1,408 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif, 'Inter', 'Roboto',;
+}
+
+/* Navigation Bar Styling */
+nav > img {
+    width: 160px;
+    height: 58px;
+}
+
+.nav-bar-nav {
+    height: 100%;
+}
+
+.bars-icon {
+    font-size: 28px;
+    color: #1f1f25;
+}
+
+.hoverlink {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.hoverlink > a.active:hover {
+    color: #f9004d;
+}
+
+.hoverlink > a:hover {
+    color: #f9004d;
+}
+
+.navbar_button {
+    font-weight: 400;
+    padding: 3px 17px;
+    border-color: #808080;
+    transition: all 0.2s ease-in-out;
+}
+
+ul > .nav-button:hover {
+    background-color: #f9004d;
+    transform: translate3d(0px, -1px, 0px);
+    border: none;
+}
+
+.button_link > a:hover {
+    color: #fff;
+}
+
+@media screen and (max-width: 330px) {
+    .navbar-brand>img {
+        width: 90px;
+        height: 50px;
+    }
+}
+
+/* Section One - Hero box  */
+
+.hero_box {
+    height: 650px;
+    width: 100vw;
+}
+
+.bg_image {
+    background-image: url(https://images.unsplash.com/photo-1566753323558-f4e0952af115?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1321&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg_image2 {
+    background-image: url(https://i0.wp.com/pureskinpro.com/wp-content/uploads/2021/07/lady-in-striped-shirt.jpg?w=1920&ssl=1);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.background-overlay {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.title_carousel {
+    font-size: 100px;
+    font-weight: 900;
+    color: white;
+}
+
+.paragraph_carousel {
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.contact_button {
+    padding: 20px 50px;
+    background-color: #f9004d;
+    color: #fff;
+    border: #f9004d 1px solid;
+    transition: all 0.4s ease-in-out;
+}
+
+.contact_button:hover {
+    background-color: transparent;
+    color: #f9004d;
+    border: #f9004d 1px solid;
+    transform: translate3d(0px, -2px, 0px);
+}
+
+.contact_button {
+    padding: 15px 50px;
+    background-color: #f9004d;
+    color: #fff;
+    border: #f9004d 1px solid;
+    transition: all 0.4s ease-in-out;
+}
+
+.contact_button:hover {
+    background-color: transparent;
+    color: #f9004d;
+    border: #f9004d 1px solid;
+    transform: translate3d(0px, -2px, 0px);
+}
+
+.carousel_container {
+    padding: 200px 0;
+}
+
+.carousel_button {
+    transform: translate3d(0px, -1px, 0px);
+}
+
+.carousel_button:hover {
+    background-color: #f9004d;
+    border: none !important;
+    transition: all 0.5s ease;
+}
+
+.carousel_button2 {
+    height: 12px !important;
+    width: 12px !important;
+    background-color: transparent !important;
+    outline: solid 2px #f9004d !important;
+    border: 0px !important;
+    margin: 0 10px !important;
+}
+
+.hero_button {
+    width:10px;
+    background-color: #f9004d;
+    padding: 15px 40px;
+}
+
+/*  Services Offered Section */
+.services {
+    margin: 30px 0;
+}
+
+.card-services {
+    height: 330px;
+    padding: 60px 30px;
+}
+
+.services-card>.services-icon {
+    color: #f9004d;
+}
+
+.services-card:hover {
+    background: linear-gradient(111.3deg,
+            rgb(252, 56, 56) 11.7%,
+            rgb(237, 13, 81) 81.7%);
+    color: #fff;
+    transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transform: translateY(-2%);
+}
+
+.card-title-services {
+    font-size: 24px;
+}
+
+.card-text-services {
+    font-size: 18px;
+}
+
+/* Services Section p2 */
+.services-pt2-card {
+    width: 270px;
+}
+
+.services-pt2 {
+    background-color: #f8f9fc;
+    padding: 90px 0 120px 0;
+}
+
+.services-pt2-title {
+    font-size: 60px;
+    font-weight: 700;
+    color: #1f1f25;
+}
+
+.services-pt2-card-link {
+    text-decoration: none;
+}
+
+.underline-me {
+    color: #1f1f25;
+    font-weight: 500;
+}
+
+.underline-me::after {
+    position: absolute;
+    content: "";
+    left: 0px;
+    bottom: 12px;
+    width: 40px;
+    height: 2px;
+    background: #f9004d;
+    opacity: 0.75;
+    transition: width 0.5s ease;
+}
+
+.underline-me:hover::after {
+    width: 210px;
+}
+
+.services-pt2-text {
+    font-size: 18px;
+    font-weight: 400;
+    color: RGBA(29, 29, 36, 0.75);
+}
+
+.underline-me2::after {
+    position: absolute;
+    content: "";
+    left: 0px;
+    bottom: 12px;
+    width: 40px;
+    height: 2px;
+    background: #f9004d;
+    opacity: 0.75;
+    transition: width 0.5s ease;
+}
+
+.underline-me2:hover::after {
+    width: 100px;
+}
+
+.underline-me2 {
+    color: #1f1f25;
+    font-weight: 500;
+}
+
+/* Figures section 5 */
+.figures_bg_img {
+    background-image: url(https://images.unsplash.com/photo-1551135049-8a33b5883817?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.figures_title {
+    font-size: 72px;
+}
+
+.figures_text {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/* Working Process Section*/
+
+.working_process {
+    margin: 120px 0;
+}
+
+.working_img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.working-img {
+    background-image: url(https://trydo.rainbowit.net/assets/images/about/about-4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 590px;
+    height: 640px;
+    box-shadow: 0 20px 79px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-button::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 2px;
+    background: rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.accordion-button:hover::after {
+    width: 100px;
+    border: none;
+}
+
+.accordion-button:focus {
+    background-color: transparent !important;
+    color: #1f1f25 !important;
+    text-decoration: none !important;
+    border: none;
+    box-shadow: 0px !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: transparent !important;
+    color: #1f1f25 !important;
+    border: none;
+}
+
+.seehow-button {
+    padding: 15px 20px;
+    height: 50px;
+    width: 300px;
+    background-color: #f9004d;
+    color: #fff;
+    font-weight: 400;
+    border-color: #808080;
+    transition: all 0.4s ease-in-out;
+}
+
+/* Media and Aout */
+.media_li {
+    list-style: none;
+}
+
+.media_li li:before {
+    content: '✓';
+    color: #f9004d;
+}
+
+/*Brands Section  */
+.brands_wrapper {
+    transition: all .15s;
+}
+
+.brands_wrapper:hover {
+    cursor: pointer;
+    background-image: linear-gradient(90deg, #f61b10, #ef0963);
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.brands_wrapper:hover img {
+    color: #fff;
+}
+
+/* Latest News Section */
+.fashion-wrapper {
+    height: 500px;
+}
+
+.fashion-wrapper button {
+    display: none;
+}
+
+.fashion-wrapper button:hover {
+    background-color: #f61b10;
+    color: #fff;
+    border: none;
+}
+
+.fashion-stats {
+    transition: all .5s;
+}
+
+.fashion-wrapper:hover .overlay {
+    background-image: linear-gradient(180deg, rgba(252, 0, 77, 0.7), rgba(0, 0, 0, 0.7));
+    cursor: pointer;
+}
+
+.fashion-wrapper:hover .fashion-stats {
+    transform: translateY(-40%);
+}
+
+.fashion-wrapper:hover button {
+    display: block;
+
+}
+
+/* Footer part 1 */
+.footer_part1_wrapper {
+    background-image: url(https://trydo.rainbowit.net/assets/images/pattern-1.png), linear-gradient(90deg, #f61b10, #ef0963);
+    height: 450px;
+}
+
+.footer_part1_wrapper > p {
+    letter-spacing: 3px;
+}
+
+.footer {
+    color: rgba(198, 201, 216, .75);
+}
+
+.footer-overlay {
+     background-color: rgba(25, 27, 34, 1.96);
+    /* color: rgb(25, 27, 34);  */
+    /* background-color: #1D1F26; */
+}
